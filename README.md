@@ -11,10 +11,11 @@
 ![Saga Choreography pattern](https://raw.githubusercontent.com/anurupborah2001/saga-coreography-pattern/main/images/saga-choreography1.png)
 
 
-##Order-Payment Saga Choreography Pattern           
+## Order-Payment Saga Choreography Pattern    
+
 ![Saga Choreography pattern](https://raw.githubusercontent.com/anurupborah2001/saga-coreography-pattern/main/images/saga-choreography-design.png)
 
-##Request and Response :
+## Request and Response :
  **1. Create Order Request**
 > curl --location --request POST 'http://localhost:8081/order/create' \
 --header 'Content-Type: application/json' \
