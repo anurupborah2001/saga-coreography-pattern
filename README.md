@@ -8,11 +8,11 @@
 
 **Saga Choreography Pattern :**  A saga is a sequence of local transactions. Each local transaction updates the database and publishes a message or event to trigger the next local transaction in the saga. If a local transaction fails because it violates a business rule then the saga executes a series of compensating transactions that undo the changes that were made by the preceding local transactions.
 
-![Saga Choreography pattern](https://github.com/anurupborah2001/saga-coreography-pattern/images/saga-choreography1.png)
+![Saga Choreography pattern](https://raw.githubusercontent.com/anurupborah2001/saga-coreography-pattern/main/images/saga-choreography1.png)
 
 
 ##Order-Payment Saga Choreography Pattern           
-![Saga Choreography pattern](https://github.com/anurupborah2001/saga-coreography-pattern/images/saga-choreography-design.png)
+![Saga Choreography pattern](https://raw.githubusercontent.com/anurupborah2001/saga-coreography-pattern/main/images/saga-choreography-design.png)
 
 ##Request and Response :
  **1. Create Order Request**
@@ -73,15 +73,15 @@
 ## DB Schema
 1. User Balance Table
 
-![Saga Choreography pattern](https://github.com/anurupborah2001/saga-coreography-pattern/images/db-img1.png)
+![Saga Choreography pattern](https://raw.githubusercontent.com/anurupborah2001/saga-coreography-pattern/main/images/db-img1.png)
 
 2. Purchase Order Table
 
-![Saga Choreography pattern](https://github.com/anurupborah2001/saga-coreography-pattern/images/db-img2.png)
+![Saga Choreography pattern](https://raw.githubusercontent.com/anurupborah2001/saga-coreography-pattern/main/images/db-img2.png)
 
 3. User Transaction Table 
 
-![Saga Choreography pattern](https://github.com/anurupborah2001/saga-coreography-pattern/images/db-img3.png)
+![Saga Choreography pattern](https://raw.githubusercontent.com/anurupborah2001/saga-coreography-pattern/main/images/db-img3.png)
 
 ## Reference
 > https://microservices.io/patterns/data/saga.html
