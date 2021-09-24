@@ -1,0 +1,26 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: orderSupplier;paymentEventConsumer
+      bindings:
+        orderSupplier-out-0:
+          destination: order-event
+        paymentEventConsumer-in-0:
+          destination: payment-event
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sagadb
+    username: root
+    password: Equinox##09
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+      format_sql:  true
+
+server:
+  port: 8081
